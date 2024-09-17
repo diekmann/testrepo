@@ -1,5 +1,7 @@
 # https://docs.spacelift.io/integrations/cloud-providers/gcp
-provider "google" {}
+provider "google" {
+  project = "my-project-id849y3iu221y"
+}
 
 resource "google_project" "my_project" {
   name       = "My Project"
